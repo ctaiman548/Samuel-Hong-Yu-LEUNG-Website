@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-lg: 1025px;
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-off-white: #fdfdfd;
+  --color-off-black: #111111;
+  
+  --animate-scroll-line: scroll-line 2.5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  --animate-ping-slow: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+  @keyframes scroll-line {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(300%); }
+  }
+}
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
+
+@keyframes swipeLeft {
+  0% { transform: translateX(20px); opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: translateX(-40px); opacity: 0; }
+}
+
+.animate-swipe-left {
+  animation: swipeLeft 1.5s ease-in-out infinite;
+}
