@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel LEUNG | Composer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      
+      /* Custom scrollbar */
+      .custom-scrollbar::-webkit-scrollbar {
+          width: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+          background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: rgba(156, 163, 175, 0.5); /* gray-400 with opacity */
+          border-radius: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: rgba(107, 114, 128, 0.8); /* gray-500 with opacity */
+      }
+      .custom-scrollbar {
+          scrollbar-width: thin;
+          scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+      }
+
+      /* Always visible scrollbar */
+      .always-visible-scrollbar::-webkit-scrollbar {
+          width: 6px;
+      }
+      .always-visible-scrollbar::-webkit-scrollbar-track {
+          background: transparent;
+      }
+      .always-visible-scrollbar::-webkit-scrollbar-thumb {
+          background-color: rgba(156, 163, 175, 0.6); /* gray-400 with opacity */
+          border-radius: 10px;
+      }
+      .always-visible-scrollbar::-webkit-scrollbar-thumb:hover {
+          background-color: rgba(107, 114, 128, 0.8); /* gray-500 with opacity */
+      }
+      
+      /* Transparent scrollbar (takes up space but invisible) */
+      .transparent-scrollbar::-webkit-scrollbar {
+          width: 6px;
+      }
+      .transparent-scrollbar::-webkit-scrollbar-track {
+          background: transparent;
+      }
+      .transparent-scrollbar::-webkit-scrollbar-thumb {
+          background-color: transparent;
+      }
+
+      /* Firefox fallback */
+      @supports (-moz-appearance:none) {
+          .always-visible-scrollbar {
+              scrollbar-width: thin;
+              scrollbar-color: rgba(156, 163, 175, 0.6) transparent;
+          }
+          .transparent-scrollbar {
+              scrollbar-width: thin;
+              scrollbar-color: transparent transparent;
+          }
+      }
+
+      body {
+        background-color: #fdfdfd;
+        color: #111111;
+        overflow: hidden; /* Prevent body scroll, handle in app */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>
