@@ -3,9 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import ContentSection from './components/ContentSection';
-import VideoSection from './components/VideoSection';
+import HomePage from './components/HomePage';
 import WorksPage from './components/WorksPage';
 import UpcomingsPage from './components/UpcomingsPage';
 import AboutPage from './components/AboutPage';
@@ -42,9 +40,10 @@ function App() {
   const navigate = useNavigate();
 
   // Derive currentView from location.pathname
-  const currentView = location.pathname === '/compositions' ? 'works' :
-                      location.pathname === '/upcomings' ? 'upcomings' :
-                      location.pathname === '/about' ? 'about' : 'home';
+  const normalizedPath = location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+  const currentView = normalizedPath === '/compositions' ? 'works' :
+                      normalizedPath === '/upcomings' ? 'upcomings' :
+                      normalizedPath === '/about' ? 'about' : 'home';
 
   // Upcomings State
   const [upcomingsMode, setUpcomingsMode] = useState<'Upcomings' | 'Past Events'>('Upcomings');
@@ -279,64 +278,32 @@ function App() {
       {/* View Rendering */}
       <Routes>
         <Route path="/" element={
-          <main 
-            ref={containerRef}
-            className="h-full w-full flex flex-col lg:flex-row overflow-y-auto overflow-x-hidden lg:overflow-x-auto lg:overflow-y-hidden no-scrollbar"
-            style={{ scrollBehavior: 'auto' }} 
-          >
-            <div id="hero" className="shrink-0 sticky top-0 lg:left-0 z-0 w-full lg:w-[calc(100vw+1px)] h-[100dvh]">
-                <Hero 
-                    scrollX={currentScrollX} 
-                    onScrollClick={handleHeroScrollClick}
-                />
-            </div>
-
-            {SECTIONS.filter(s => s.id !== 'hero').slice(0, 2).map((section) => (
-                <div key={section.id} className="shrink-0 relative z-10">
-                    <ContentSection 
-                        data={section} 
-                        onClick={
-                            section.id === 'works-preview' ? () => handleNavigate('works', '/compositions') : 
-                            section.id === 'upcomings-preview' ? () => handleNavigate('upcomings', '/upcomings') : undefined
-                        }
-                    />
-                </div>
-            ))}
-
-            <div className="shrink-0 relative z-10">
-                <VideoSection 
-                    videoId="lsXMEEnmyVk"
-                    title="Excursion II"
-                    subtitle="for Flute, Clarinet, Sheng (37-reed), Pipa, Piano, 2 Violins, Viola, Cello"
-                />
-            </div>
-
-            <div className="shrink-0 relative z-10">
-                <VideoSection 
-                    videoId="3nKidgXXxl0"
-                    title="it is Coming III"
-                    subtitle="for Violin & Traditional Gaohu"
-                />
-            </div>
-
-            {SECTIONS.filter(s => s.id !== 'hero').slice(2).map((section) => (
-                <div key={section.id} className="shrink-0 relative z-10">
-                    <ContentSection 
-                        data={section}
-                        onClick={
-                            section.id === 'about' ? () => handleNavigate('about', '/about') : undefined
-                        } 
-                    />
-                </div>
-            ))}
-
-            <div className="shrink-0 relative z-10 w-full lg:w-[40vw] -ml-[1px]">
-                <Footer />
-            </div>
-          </main>
+          <HomePage 
+            containerRef={containerRef}
+            currentScrollX={currentScrollX}
+            handleHeroScrollClick={handleHeroScrollClick}
+            handleNavigate={handleNavigate}
+          />
+        } />
+        <Route path="/index.html" element={
+          <HomePage 
+            containerRef={containerRef}
+            currentScrollX={currentScrollX}
+            handleHeroScrollClick={handleHeroScrollClick}
+            handleNavigate={handleNavigate}
+          />
         } />
 
         <Route path="/compositions" element={
+          <WorksPage 
+            key={location.pathname} 
+            filter={worksFilter} 
+            listenAvailable={listenAvailable} 
+            onFilterChange={setWorksFilter}
+            onListenAvailableChange={setListenAvailable}
+          />
+        } />
+        <Route path="/compositions/index.html" element={
           <WorksPage 
             key={location.pathname} 
             filter={worksFilter} 
@@ -354,8 +321,17 @@ function App() {
             year={selectedYear} 
           />
         } />
+        <Route path="/upcomings/index.html" element={
+          <UpcomingsPage 
+            key={location.pathname} 
+            mode={upcomingsMode} 
+            onModeChange={setUpcomingsMode}
+            year={selectedYear} 
+          />
+        } />
 
         <Route path="/about" element={<AboutPage key={location.pathname} />} />
+        <Route path="/about/index.html" element={<AboutPage key={location.pathname} />} />
       </Routes>
 
     </div>
