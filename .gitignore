@@ -23,6 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore the media folders inside public to prevent AI Studio corruption
-public/about/
-public/photos/

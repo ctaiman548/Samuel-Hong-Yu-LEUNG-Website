@@ -275,11 +275,11 @@ const AboutPage: React.FC = () => {
 
   const getDownloadLink = () => {
       if (activeTab === 'bio') {
-          return '/about/Samuel Biography 2026 03 (and short).pdf';
+          return '/about/Bio Samuel Hong-Yu LEUNG.pdf';
       }
       return activeLang === 'de' 
-        ? '/about/CV Leung Hong Yu 2026 03 [in German] (German Conversion, Selected works).pdf' 
-        : '/about/CV Leung Hong Yu 2026 03 (German Conversion, Selected works).pdf';
+        ? '/about/CV Samuel Hong-Yu LEUNG [Deutsch].pdf' 
+        : '/about/CV Samuel Hong-Yu LEUNG [English].pdf';
   };
 
   const formatMixedText = (text: string) => {
