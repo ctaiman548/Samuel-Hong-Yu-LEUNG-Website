@@ -650,7 +650,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
                     </div>
                 </div>
 
-                <div className={`shrink min-h-0 basis-16 lg:basis-24 xl:basis-8 transition-all duration-500 ${isPerformancesExpanded ? 'basis-0' : ''}`}></div>
+                <div className={`shrink min-h-0 basis-12 lg:basis-0 lg:flex-grow transition-all duration-500 ${isPerformancesExpanded ? 'basis-0' : ''}`}></div>
                 <div className={`w-full flex flex-col transition-transform duration-500 delay-75 shrink min-h-0 lg:mt-auto ${isCentered ? 'max-lg:translate-x-2' : ''} group-hover:translate-x-2`}>
                     {!isMobile ? (
                         <>
@@ -819,10 +819,17 @@ const ContentSection: React.FC<ContentSectionProps> = ({
                             </div>
 
                             {/* Title */}
-                            <h2 
-                                className={`${isPastEventsPage ? 'text-2xl lg:text-3xl xl:text-4xl' : 'text-3xl lg:text-4xl xl:text-5xl'} font-sans font-normal tracking-tight text-off-black leading-none mb-2 break-words max-w-full`}
-                                dangerouslySetInnerHTML={{ __html: upcomingData.occasion }}
-                            />
+                            <div className="flex flex-col mb-2">
+                                {upcomingData.occasionRemarks && (
+                                    <div className="text-lg font-normal text-off-black leading-tight">
+                                        {upcomingData.occasionRemarks}
+                                    </div>
+                                )}
+                                <h2 
+                                    className={`${isPastEventsPage ? 'text-2xl lg:text-3xl xl:text-4xl' : 'text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl'} font-sans font-normal tracking-tight text-off-black leading-none break-words max-w-full`}
+                                    dangerouslySetInnerHTML={{ __html: upcomingData.occasion }}
+                                />
+                            </div>
 
                             {/* Location Block - Mobile: Below Title */}
                             {upcomingData.mapUrl ? (
@@ -903,10 +910,17 @@ const ContentSection: React.FC<ContentSectionProps> = ({
                             </div>
 
                             {/* Title */}
-                            <h2 
-                                className={`${isPastEventsPage ? 'text-2xl lg:text-3xl xl:text-4xl' : 'text-3xl lg:text-4xl xl:text-5xl'} font-sans font-normal tracking-tight text-off-black leading-none mb-2 break-words max-w-full`}
-                                dangerouslySetInnerHTML={{ __html: upcomingData.occasion }}
-                            />
+                            <div className="flex flex-col mb-2">
+                                {upcomingData.occasionRemarks && (
+                                    <div className={`${isPastEventsPage ? 'text-lg lg:text-xl xl:text-2xl' : 'text-lg lg:text-xl xl:text-xl 2xl:text-2xl'} font-light text-off-black leading-tight`}>
+                                        {upcomingData.occasionRemarks}
+                                    </div>
+                                )}
+                                <h2 
+                                    className={`${isPastEventsPage ? 'text-2xl lg:text-3xl xl:text-4xl' : 'text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl'} font-sans font-normal tracking-tight text-off-black leading-none break-words max-w-full`}
+                                    dangerouslySetInnerHTML={{ __html: upcomingData.occasion }}
+                                />
+                            </div>
                         </>
                     )}
 
@@ -936,9 +950,9 @@ const ContentSection: React.FC<ContentSectionProps> = ({
                 {/* Bottom Part: Performed By and Samuel Hong-Yu LEUNG */}
                 <div className={`w-full transition-transform duration-500 delay-75 shrink-0 lg:mt-auto ${isCentered ? 'max-lg:translate-x-2' : ''} group-hover:translate-x-2`}>
                      {!isPastEventsPage && <div className="w-full h-px bg-gray-200 mb-4 lg:mb-6"></div>}
-                     <div className="flex flex-col gap-6 lg:gap-3">
+                     <div className="flex flex-col gap-6 lg:gap-4">
                         {/* Performed By -> "with" */}
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 lg:gap-0.5">
                            <span className="text-[10px] uppercase tracking-[0.2em] text-gray-500">with</span>
                            <span className="text-lg lg:text-2lg font-light text-off-black leading-relaxed max-w-full whitespace-pre-wrap">
                                <FormattedPerformer text={upcomingData.performers} />
@@ -946,7 +960,7 @@ const ContentSection: React.FC<ContentSectionProps> = ({
                         </div>
 
                         {/* Featuring -> "Samuel Hong-Yu Leung:" */}
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 lg:gap-0.5">
                            <span className="text-[10px] uppercase tracking-[0.2em] text-gray-500">Samuel Hong-Yu Leung:</span>
                            <span className="text-lg lg:text-2lg font-light text-off-black uppercase leading-relaxed max-w-full">
                                {upcomingData.program}

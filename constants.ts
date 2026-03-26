@@ -722,7 +722,8 @@ Awakened once again, ...
 export const STANDALONE_EVENTS: UpcomingEvent[] = [
   {
     id: 'evt-04',
-    occasion: '[Presentation]: HKU Composers’ Symposium 2025',
+    occasionRemarks: "[Presentation]:",
+    occasion: "HKU Composers’ Symposium 2025",
     date: '28-29 AUG 2025',
     venue: 'RRST 11/F, Seminar Room, Hong Kong University',
     location: 'Hong Kong',
@@ -738,7 +739,7 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
     performers: 'Contemporary Insights',
-    program: '[TBA]',
+    program: '[New Piece]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/zfgm-festival-2026',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
   },
@@ -755,7 +756,8 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
   },
   {
     id: '[violin-plying-in]-masters-graduation-concert-(kefan-Chen)',
-    occasion: "[violin playing in]: Master's Graduation Concert (Kefan Chen)",
+    occasionRemarks: "Violin Playing in:",
+    occasion: "Master's Graduation Concert (Kefan Chen)",
     date: '09 JUL 2026',
     venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
@@ -766,13 +768,14 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
   },
   {
     id: '[violin-playing-in]-Diplome-Komposition-Theorie-2026',
-    occasion: "[violin playing in]: Diplome Komposition / Theorie 2026",
+    occasionRemarks: "Violin Playing in:",
+    occasion: "Diplome Komposition / Theorie 2026",
     date: '27 MAY 2026',
     venue: 'Toni-Areal, Konzertsaal 1, Ebene 7, Pfingstweidstrasse 96, Zurich University of Arts',
     location: 'Zurich, Switzerland',
     performers: 'Kefan Chen & Wenjie HU: [TBA]',
     program: '[violin]',
-    ticketUrl: '',
+    ticketUrl: 'https://www.zhdk.ch/en/event/60330',
     mapUrl: 'https://maps.app.goo.gl/ssNhu5Ubw1mJy92cA'
   },
 ];

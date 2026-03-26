@@ -43,6 +43,7 @@ export interface Work {
 
 export interface UpcomingEvent {
   id: string;
+  occasionRemarks?: string;
   occasion: string;
   date: string;
   location: string;
