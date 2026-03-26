@@ -279,7 +279,7 @@ export const WORKS: Work[] = [
       occasion: 'Samuel Hong-yu LEUNG’s Graduation Concert (Bachelor)',
       venue: 'Lee Hysan Concert Hall, The Chinese University of Hong Kong',
       location: 'Hong Kong',
-      performer: 'Tin-ho HUI (flute), Tony Yat-chun LEUNG (clarinet (also bass clarinet)), Quinton Lok-sang CHU (horn), Kasper Chi-huen CHAN (trumpet), Sam LAU (percussion), Milly Yee-tung CHAN (harp), Arthur Hin-hei TSANG (violin), Jacky Pok-yin YUNG (viola), Edmund Tsz-chun POON (cello), Ryley Ho-cheung YIP (double bass)',
+      performer: 'Conductor: Justin Ching-Yin WONG\nTin-ho HUI (flute), Tony Yat-chun LEUNG (clarinet (also bass clarinet)), Quinton Lok-sang CHU (horn), Kasper Chi-huen CHAN (trumpet), Sam LAU (percussion), Milly Yee-tung CHAN (harp), Arthur Hin-hei TSANG (violin), Jacky Pok-yin YUNG (viola), Edmund Tsz-chun POON (cello), Ryley Ho-cheung YIP (double bass)',
       mapUrl: 'https://maps.app.goo.gl/dG8KzLZZfNkdze93A'
     },
     programmeNotes: `This was the first piece I wrote right after the influence of philosophy, and the original programme (premiered in my graduation concert of my bachelor’s degree) was so naïve that I would rather hide it. But basically, the naïve original idea was to use the music to find my true self under ideology. That’s why, when I was sitting in front of my composing desk, I was encouraged by myself to compose with the given instrumentation whatever I want at the moment. The objects are fragmented and undeveloped, soundscapes change drastically from one to another. Though structurally arbitrary, beauty is what I was thinking consistently while composing.
