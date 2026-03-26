@@ -741,7 +741,40 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     program: '[TBA]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/zfgm-festival-2026',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
-  }
+  },
+  {
+    id: 'masters-graduation-concert',
+    occasion: "Master's Graduation Concert",
+    date: '09 JUL 2026',
+    venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
+    location: 'Leipzig, Germany',
+    performers: '[TBA]',
+    program: '[pieces by Samuel Hong-Yu LEUNG]',
+    ticketUrl: '',
+    mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
+  },
+  {
+    id: '[violin-plying-in]-masters-graduation-concert-(kefan-Chen)',
+    occasion: "[violin playing in]: Master's Graduation Concert (Kefan Chen)",
+    date: '09 JUL 2026',
+    venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
+    location: 'Leipzig, Germany',
+    performers: 'Kefan Chen & Wenjie HU: [TBA]',
+    program: '[violin]',
+    ticketUrl: '',
+    mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
+  },
+  {
+    id: '[violin-playing-in]-Diplome-Komposition-Theorie-2026',
+    occasion: "[violin playing in]: Diplome Komposition / Theorie 2026",
+    date: '27 MAY 2026',
+    venue: 'Toni-Areal, Konzertsaal 1, Ebene 7, Pfingstweidstrasse 96, Zurich University of Arts',
+    location: 'Zurich, Switzerland',
+    performers: 'Kefan Chen & Wenjie HU: [TBA]',
+    program: '[violin]',
+    ticketUrl: '',
+    mapUrl: 'https://maps.app.goo.gl/ssNhu5Ubw1mJy92cA'
+  },
 ];
 
 export const getAllEvents = (): UpcomingEvent[] => {
