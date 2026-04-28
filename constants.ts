@@ -778,6 +778,18 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     ticketUrl: 'https://www.zhdk.ch/en/event/60330',
     mapUrl: 'https://maps.app.goo.gl/ssNhu5Ubw1mJy92cA'
   },
+  {
+    id: '[violin-playing-in]-ZfGM-2026',
+    occasionRemarks: "Violin Playing in:",
+    occasion: "Musik & Gegenwart 116",
+    date: '29 APR 2026',
+    venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
+    location: 'Leipzig, Germany',
+    performers: 'August Christian Hübner',
+    program: '[violin]',
+    ticketUrl: 'https://www.hmt-leipzig.de/news-events/konzert-musik-gegenwart-116',
+    mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
+  },
 ];
 
 export const getAllEvents = (): UpcomingEvent[] => {
