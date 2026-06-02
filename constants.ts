@@ -757,7 +757,7 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     date: '19 JUN 2026',
     venue: 'Großer Saal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
-    performers: 'Kefan Chen's & Emilie Goller's pieces',
+    performers: "Kefan Chen's & Emilie Goller's pieces",
     program: '[violin]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/zfgm-festival-2026',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
