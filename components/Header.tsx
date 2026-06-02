@@ -157,7 +157,16 @@ const Header: React.FC<HeaderProps> = ({
                                         className={`px-3 py-2.5 rounded-[3px] text-left transition-colors duration-200 ease-in-out whitespace-nowrap cursor-pointer border border-transparent hover:border-black ${activeFilter === 'With Electronics/ Installations' ? 'bg-[#333333] text-white' : 'hover:bg-gray-100'}`}
                                     >
                                         With Electronics/ Installations
+                                    </button>                                    
+                                    
+                                    <button
+                                        onClick={() => handleFilterClick('Choir')}
+                                        onTouchEnd={(e) => { e.preventDefault(); handleFilterClick('Choir'); }}
+                                        className={`px-3 py-2.5 rounded-[3px] text-left transition-colors duration-200 ease-in-out whitespace-nowrap cursor-pointer border border-transparent hover:border-black ${activeFilter === 'Choir' ? 'bg-[#333333] text-white' : 'hover:bg-gray-100'}`}
+                                    >
+                                        Choir
                                     </button>
+                                  
                                 </div>
                             </div>
                         </div>
