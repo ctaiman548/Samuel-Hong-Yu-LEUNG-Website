@@ -140,6 +140,24 @@ export const WORKS: Work[] = [
     listenUrl: '#'
   },
   {
+  id: 'Recess',
+  title: 'Recess',
+  categories: ['Choir'],
+  year: '2026',
+  instrumentation: 'SATB Choir',
+  duration: '7 mins 7 secs',
+  premiere: {
+    date: '18 JUN 2026',
+    occasion: 'Aqua Voice 15th Anniversary Concert',
+    venue: 'Lee Hysan Concert Hall, The Chinese University of Hong Kong',
+    location: 'Hong Kong',
+    performer: 'Aqua Voice, Jermyn Chun-Man LEE (conductor)',
+    mapUrl: 'https://maps.app.goo.gl/dG8KzLZZfNkdze93A'
+  },
+  remarks: 'Commissioned by Fluente Chorus',
+  listenUrl: '#'
+},
+  {
     id: 'flux',
     title: 'Flux',
     categories: ['Chamber'],
@@ -733,13 +751,14 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     mapUrl: 'https://maps.app.goo.gl/Fdf8KHEDoSWcdC4YA'
   },
   {
-    id: 'evt-03',
-    occasion: 'ZfGM 2026',
-    date: '18-20 JUN 2026',
-    venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
+    id: '[violin-plying-in]-ZfGM',
+    occasionRemarks: "Violin Playing in:",
+    occasion: "Musik & Gegenwart 117",
+    date: '19 JUN 2026',
+    venue: 'Großer Saal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
-    performers: 'Contemporary Insights',
-    program: '[New Piece]',
+    performers: 'Kefan Chen's & Emilie Goller's pieces',
+    program: '[violin]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/zfgm-festival-2026',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
   },
@@ -767,25 +786,13 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
   },
   {
-    id: '[violin-playing-in]-Diplome-Komposition-Theorie-2026',
-    occasionRemarks: "Violin Playing in:",
-    occasion: "Diplome Komposition / Theorie 2026",
-    date: '27 MAY 2026',
-    venue: 'Toni-Areal, Konzertsaal 1, Ebene 7, Pfingstweidstrasse 96, Zurich University of Arts',
-    location: 'Zurich, Switzerland',
-    performers: 'Kefan Chen & Wenjie HU: [TBA]',
-    program: '[violin]',
-    ticketUrl: 'https://www.zhdk.ch/en/event/60330',
-    mapUrl: 'https://maps.app.goo.gl/ssNhu5Ubw1mJy92cA'
-  },
-  {
     id: '[violin-playing-in]-ZfGM-2026',
     occasionRemarks: "Violin Playing in:",
     occasion: "Musik & Gegenwart 116",
     date: '29 APR 2026',
     venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
-    performers: 'August Christian Hübner',
+    performers: 'August Christian Hübner's piece',
     program: '[violin]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/konzert-musik-gegenwart-116',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
