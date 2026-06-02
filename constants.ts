@@ -792,7 +792,7 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     date: '29 APR 2026',
     venue: 'Probesaal, HMT Leipzig, Grassistraße 8',
     location: 'Leipzig, Germany',
-    performers: 'August Christian Hübner's piece',
+    performers: "August Christian Hübner's piece",
     program: '[violin]',
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/konzert-musik-gegenwart-116',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
