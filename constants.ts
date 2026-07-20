@@ -797,6 +797,40 @@ export const STANDALONE_EVENTS: UpcomingEvent[] = [
     ticketUrl: 'https://www.hmt-leipzig.de/news-events/konzert-musik-gegenwart-116',
     mapUrl: 'https://maps.app.goo.gl/os2nfSDvZDJPGh4J9'
   },
+  {
+    id: 'GMPU',
+    occasion: "Summer Academy for Composition (GMPU)",
+    date: '15-22 AUG 2026',
+    venue: 'CMA Ossiach',
+    location: 'Ossiach, Austria',
+    performers: 'Florian Palier (Guitar)',
+    program: 'Lullaby',
+    ticketUrl: 'https://gmpu.ac.at/forschung/projektfelder/projekte/243',
+    mapUrl: '#'
+  },
+  {
+    id: 'Donaueschinger-Musiktage',
+    occasion: "Donaueschinger Musiktage - Next Generaion 2026",
+    date: '14-18 OCT 2026',
+    venue: 'Donaueschingen',
+    location: 'Germany',
+    performers: '',
+    program: '',
+    ticketUrl: 'https://www.donaueschingen.de/Musiktage/Next-Generation',
+    mapUrl: '#'
+  },
+  {
+    id: 'IMPULS',
+    occasion: "IMPULS",
+    date: '8-19 FEB 2027',
+    venue: 'KUG, University of Music and Performing Arts Graz',
+    location: 'Graz, Austria',
+    performers: '[TBA]',
+    program: '[TBA]',
+    ticketUrl: 'https://www.impuls.cc/academy-2027',
+    mapUrl: '#'
+  },
+
 ];
 
 export const getAllEvents = (): UpcomingEvent[] => {
