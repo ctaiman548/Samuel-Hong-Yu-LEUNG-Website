@@ -247,6 +247,26 @@ export const WORKS: Work[] = [
     listenUrl: 'https://youtu.be/xsSvxqhZJtM'
   },
   {
+    id: 'time-tunnel-2b',
+    title: 'Time Tunnel 2b',
+    categories: ['Large Ensemble'],
+    year: '2025',
+    instrumentation: 'Wind Orchestra',
+    duration: '5 mins 30 secs',
+    premiere: {
+      date: '11 NOV 2026',
+      occasion: 'Aeolian Delights: HKCG x Chung Chi Wind Orchestra',
+      venue: 'Auditorium, Tsuen Wan Town Hall',
+      location: 'Hong Kong',
+      ticketUrl: '#',
+      performer: 'Chung Chi Wind Orchestra',
+      mapUrl: 'https://maps.app.goo.gl/7Wowq94P3RbmGBoG7'
+    },
+    programmeNotes: `Time Tunnel 2b is a re-instrumentation of Time Tunnel 2, written for the HKBDA 2025 Annual Concert. The Time Tunnel series takes us back to places that once made us feel excited and explores the semantic possibilities of using fragmented and cut-off phrases as musical material.
+`,   
+    listenUrl: '#'
+  },
+  {
     id: 'dialogue-x',
     title: 'Dialogue X',
     categories: ['Chamber'],
