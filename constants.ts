@@ -254,7 +254,7 @@ export const WORKS: Work[] = [
     instrumentation: 'Wind Orchestra',
     duration: '5 mins 30 secs',
     premiere: {
-      date: '11 NOV 2026',
+      date: '01 NOV 2026',
       occasion: 'Aeolian Delights: HKCG x Chung Chi Wind Orchestra',
       venue: 'Auditorium, Tsuen Wan Town Hall',
       location: 'Hong Kong',
