@@ -175,7 +175,7 @@ export const WORKS: Work[] = [
     },
     programmeNotes: `The music gives perpetual movement, change, and flow - nuanced and violent. It rejects staticity, hence the title «Flux».
 `,    
-    listenUrl: '#'
+    listenUrl: 'https://youtu.be/ilc_x_i72wQ?si=dPGRzEFakXtBiKBZ'
   },
   {
     id: 'Melt',
@@ -224,7 +224,7 @@ export const WORKS: Work[] = [
             mapUrl: 'https://maps.app.goo.gl/sd3uGy4c4n3N7YA89'
         },
     ],
-    listenUrl: '#'
+    listenUrl: 'https://youtu.be/ES87eRHZ-ck?si=IU_wTdmfrLAzzjej'
   },
   {
     id: 'time-tunnel-2',
