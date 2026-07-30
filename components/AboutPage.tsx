@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState, useLayoutEffect } from 'react';
 import StylizedText from './StylizedText';
 import ScrollHintCursor from './ScrollHintCursor';
 import { SECTIONS } from '../constants';
-import { Download } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import Footer from './Footer';
 
 type Tab = 'bio' | 'resume';
@@ -476,7 +476,7 @@ const AboutPage: React.FC = () => {
                                     <div className="flex items-center">
                                         <span className={`hidden lg:block h-px transition-all duration-500 ease-out mr-3 ${isTouchDevice ? 'bg-white w-12' : 'bg-white w-3 group-hover:w-6 group-hover/download:!w-12 group-hover/download:!bg-black'}`}></span>
                                         <div className={`flex items-center gap-2 transition-all duration-500 ease-out ${isTouchDevice ? 'text-white' : 'text-white group-hover/download:text-black group-hover/download:translate-x-1'}`}>
-                                            <Download size={14} strokeWidth={1.5} className="flex-shrink-0" />
+                                            <ExternalLink size={14} strokeWidth={1.5} className="flex-shrink-0" />
                                             <span className="text-[11px] uppercase tracking-widest font-normal whitespace-nowrap">{getDownloadLabel()}</span>
                                         </div>
                                     </div>
