@@ -152,6 +152,8 @@ const WorksPage: React.FC<WorksPageProps> = ({ filter, onFilterChange, listenAva
     // Custom sorting based on filter
     if (filter === 'Featured') {
       const featuredOrder = [
+        "Lullaby",
+        '...then, "he wrapped his face in his mantle"',
         "Excursion II",
         "Variations",
         "Tastaturlust",
@@ -169,6 +171,7 @@ const WorksPage: React.FC<WorksPageProps> = ({ filter, onFilterChange, listenAva
       });
     } else if (filter === 'Solo') {
       const soloOrder = [
+        "Lullaby",
         "Tastaturlust",
         "Sui Ergastulum",
         "Rabbit Hole",
