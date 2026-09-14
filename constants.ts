@@ -149,7 +149,7 @@ export const WORKS: Work[] = [
   {
     id: 'then-he-wrapped-his-face-in-his-mantle',
     title: '...then, "he wrapped his face in his mantle"',
-    categories: ['Large Ensemble'],
+    categories: ['featured', 'Large Ensemble'],
     year: '2026',
     instrumentation: 'Orchestra',
     duration: '7 mins',
