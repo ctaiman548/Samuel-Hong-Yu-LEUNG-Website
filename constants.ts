@@ -71,12 +71,14 @@ export const WORKS: Work[] = [
       mapUrl: 'https://maps.app.goo.gl/jf6jv5sSURZPkZZ98'
     },
     programmeNotes: `
-      <i>In peace I will lie down and sleep,
+      <div style="text-align: center;">
+        <i>In peace I will lie down and sleep,
 
-      <i>for you alone, Lord,
+        <i>for you alone, Lord,
 
-      <i>make me dwell in safety. (Psalm 4:8)</i>
-
+        <i>make me dwell in safety. (Psalm 4:8)</i>
+      </div>
+  
       &nbsp;
 
       The song above from the Book of Psalm serves as an accompaniment to the work, providing a glimpse of the sense of peace that God grants when one recognizes, believes in, and experiences His greatness.
