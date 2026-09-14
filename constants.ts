@@ -73,9 +73,11 @@ export const WORKS: Work[] = [
     programmeNotes: `
       <div style="text-align: center;">
         <i>In peace I will lie down and sleep,
-
+      <div style="text-align: center;">
         <i>for you alone, Lord,
-
+        
+      <div style="text-align: center;">
+      
         <i>make me dwell in safety. (Psalm 4:8)</i>
       </div>
   
