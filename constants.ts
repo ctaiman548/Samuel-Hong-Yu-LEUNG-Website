@@ -73,10 +73,12 @@ export const WORKS: Work[] = [
     programmeNotes: `
       <i>In peace I will lie down and sleep,
 
-      for you alone, Lord,
+      <i>for you alone, Lord,
 
-      make me dwell in safety. (Psalm 4:8)</i>
-\n \n
+      <i>make me dwell in safety. (Psalm 4:8)</i>
+
+      &nbsp;
+
       The song above from the Book of Psalm serves as an accompaniment to the work, providing a glimpse of the sense of peace that God grants when one recognizes, believes in, and experiences His greatness.
 
       The piece is built from a small number of recurring elements that reappear throughout the work, each time with subtle variations. These simple elements are spaced apart in a manner inspired by the principle of spaced repetition, not following strictly but as an underlying structural framework where newly introduced elements recur at shorter time span, while the intervals between later repetitions for the same element gradually increase, less immediate repetitions, spaced out by other elements. Through this process, the music unfolds organically, allowing familiarity to emerge gradually from its internal musical substances. Combined with the subtle and quiet dynamics, the piece provides a tensionless field.`,
