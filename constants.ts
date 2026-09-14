@@ -53,6 +53,33 @@ export const WORKS: Work[] = [
   // In the `performer` field, any text enclosed in parentheses (e.g., "(piano)") 
   // will be rendered without the parentheses and with a light, italic font.
   // Example: "Max GRIMM (piano)" will render as "Max GRIMM piano" (where piano is light and italic).
+    {
+    id: 'lullaby',
+    title: 'Lullaby',
+    categories: ['Featured', 'Solo'],
+    year: '2026',
+    remarks: 'With this piece, Leung received Composition Award (Förderpreis für Komposition) sponsored by Privatstiftung Kärntner Sparkasse. Premiered at the Concert of the 2<sup>nd</sup> International Summer Academy for Composition. Held by Althofener Meisterklängen, the Gustav Mahler Privatuniversität Klagenfurt, and its international partner institutions.',
+    instrumentation: 'Guitar',
+    duration: '8 mins',
+    premiere: {
+      date: '20 AUG 2026',
+      occasion: 'Beyond Tomorrow I',
+      venue: 'Kulturhaus Althofen',
+      location: 'Althofen, Austria',
+      ticketUrl: 'https://www.althofener-meisterklaenge.com/event-details/beyond-tomorrow-tag-1',
+      performer: 'Florian Palier (guitar)',
+      mapUrl: 'https://maps.app.goo.gl/jf6jv5sSURZPkZZ98'
+    },
+    programmeNotes: `
+      In peace I will lie down and sleep,
+      for you alone, Lord,
+      make me dwell in safety. (Psalm 4:8)
+  
+      The song above from the Book of Psalm serves as an accompaniment to the work, providing a glimpse of the sense of peace that God grants when one recognizes, believes in, and experiences His greatness.
+  
+      The piece is built from a small number of recurring elements that reappear throughout the work, each time with subtle variations. These simple elements are spaced apart in a manner inspired by the principle of spaced repetition, not following strictly but as an underlying structural framework where newly introduced elements recur at shorter time span, while the intervals between later repetitions for the same element gradually increase, less immediate repetitions, spaced out by other elements. Through this process, the music unfolds organically, allowing familiarity to emerge gradually from its internal musical substances. Combined with the subtle and quiet dynamics, the piece provides a tensionless field.`,
+    listenUrl: 'https://youtu.be/3ZV_ewPfso4'
+  },
   {
     id: 'tastaturlust',
     title: 'Tastaturlust',
