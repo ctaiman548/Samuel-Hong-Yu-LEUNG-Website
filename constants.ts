@@ -304,7 +304,7 @@ export const WORKS: Work[] = [
       occasion: 'Aeolian Delights: HKCG x Chung Chi Wind Orchestra',
       venue: 'Auditorium, Tsuen Wan Town Hall',
       location: 'Hong Kong',
-      ticketUrl: '#',
+      ticketUrl: 'https://www.performing-arts.gov.hk/en/02550000000/0255000000007477.html',
       performer: 'Chung Chi Wind Orchestra',
       mapUrl: 'https://maps.app.goo.gl/7Wowq94P3RbmGBoG7'
     },
