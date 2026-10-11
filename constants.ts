@@ -214,8 +214,8 @@ export const WORKS: Work[] = [
         {
             date: '19 OCT 2026',
             occasion: 'OSSIA New Music Concert - 1,2,3,4!',
-            venue: 'Kilbourn Hall',
-            location: 'Eastman School of Music, USA',
+            venue: 'Kilbourn Hall, Eastman School of Music',
+            location: 'USA',
             ticketUrl: 'https://www.esm.rochester.edu/esm-event/ossia-5/',
             performer: 'Genevieve SKATOFF (flute), Rachel LIU (viola)',
             mapUrl: 'https://maps.app.goo.gl/b8YE4YLPF5cjo2qEA',
