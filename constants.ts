@@ -209,7 +209,18 @@ export const WORKS: Work[] = [
       mapUrl: 'https://maps.app.goo.gl/4xomZKWKZ2j86RWr5'
     },
     programmeNotes: `The music gives perpetual movement, change, and flow - nuanced and violent. It rejects staticity, hence the title «Flux».
-`,    
+`, 
+    otherPerformances: [
+        {
+            date: '19 OCT 2026',
+            occasion: 'OSSIA New Music Concert - 1,2,3,4!',
+            venue: 'Kilbourn Hall',
+            location: 'Eastman School of Music, USA',
+            ticketUrl: 'https://www.esm.rochester.edu/esm-event/ossia-5/',
+            performer: 'Genevieve SKATOFF (flute), Rachel LIU (viola)',
+            mapUrl: 'https://maps.app.goo.gl/b8YE4YLPF5cjo2qEA',
+        },
+    ],
     listenUrl: 'https://youtu.be/ilc_x_i72wQ?si=dPGRzEFakXtBiKBZ'
   },
   {
