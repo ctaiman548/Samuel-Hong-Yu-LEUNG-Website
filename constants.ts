@@ -305,7 +305,7 @@ export const WORKS: Work[] = [
       venue: 'Auditorium, Tsuen Wan Town Hall',
       location: 'Hong Kong',
       ticketUrl: 'https://www.performing-arts.gov.hk/en/02550000000/0255000000007477.html',
-      performer: 'Chung Chi Wind Orchestra',
+      performer: 'Chung Chi Wind Orchestra, Marco LEUNG (conductor)',
       mapUrl: 'https://maps.app.goo.gl/7Wowq94P3RbmGBoG7'
     },
     programmeNotes: `Time Tunnel 2b is a re-instrumentation of Time Tunnel 2, written for the HKBDA 2025 Annual Concert. The Time Tunnel series takes us back to places that once made us feel excited and explores the semantic possibilities of using fragmented and cut-off phrases as musical material.
