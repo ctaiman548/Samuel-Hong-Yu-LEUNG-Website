@@ -197,7 +197,7 @@ export const WORKS: Work[] = [
     title: 'Flux',
     categories: ['Chamber'],
     year: '2026',
-    remarks: 'OSSIA Call for Works Winner in Eastman School of Music',
+    remarks: 'The Winner of OSSIA Call for Works in Eastman School of Music',
     instrumentation: 'Flute & Viola',
     duration: '5 mins',
     premiere: {
