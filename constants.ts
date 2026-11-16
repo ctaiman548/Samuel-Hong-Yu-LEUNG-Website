@@ -167,6 +167,7 @@ export const WORKS: Work[] = [
       ticketUrl: 'https://www.mdr.de/konzerte/konzertkalender/konzert-3340.html',
       mapUrl: 'https://maps.app.goo.gl/7T2p2Y5VCDJKShC9A'
     },
+    remarks: 'Performed by the Central German Radio Orchestra under the baton of Michael WENDEBERG',
     programmeNotes: `
       The piece is about the contrast between nuance and violence and anything in between, a re-imagined sound mass experienced by the prophet Elijah (1 Kings 19:11–12) before his action described in the title. These are two qualities that affect me most strongly on an intellectual and a physical level respectively. The orchestra provides an ideal apparatus for articulating the difference and the overlaps.
 
@@ -314,11 +315,12 @@ export const WORKS: Work[] = [
     otherPerformances: [
         {
             date: '25 NOV 2026',
-            occasion: 'The Chung Chi Wind Orchestra Fall Concert 2026',
+            occasion: 'Chung Chi Wind Orchestra Fall Concert 2026',
             venue: 'Lee Hysan Concert Hall, The Chinese University of Hong Kong',
             location: 'Hong Kong',
             performer: 'Chung Chi Wind Orchestra, Marco LEUNG (conductor)',
-            mapUrl: 'https://www.instagram.com/p/DfWRjE7AMxi/',
+            ticketUrl: 'https://www.instagram.com/p/DfWRjE7AMxi/',
+            mapUrl: 'https://maps.app.goo.gl/dG8KzLZZfNkdze93A',
         },
     ],
     listenUrl: '#'
