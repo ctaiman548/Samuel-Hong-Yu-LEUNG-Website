@@ -310,7 +310,16 @@ export const WORKS: Work[] = [
       mapUrl: 'https://maps.app.goo.gl/7Wowq94P3RbmGBoG7'
     },
     programmeNotes: `Time Tunnel 2b is a re-instrumentation of Time Tunnel 2, written for the HKBDA 2025 Annual Concert. The Time Tunnel series takes us back to places that once made us feel excited and explores the semantic possibilities of using fragmented and cut-off phrases as musical material.
-`,   
+`,
+    otherPerformances: [
+        {
+            date: '25 NOV 2026',
+            occasion: 'The Chung Chi Wind Orchestra Fall Concert 2026',
+            venue: 'Lee Hysan Concert Hall, The Chinese University of Hong Kong',
+            location: 'Hong Kong',
+            performer: 'Chung Chi Wind Orchestra, Marco LEUNG (conductor)',
+            mapUrl: 'https://www.instagram.com/p/DfWRjE7AMxi/',
+        },
     listenUrl: '#'
   },
   {
