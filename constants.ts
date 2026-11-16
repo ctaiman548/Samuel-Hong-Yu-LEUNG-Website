@@ -320,6 +320,7 @@ export const WORKS: Work[] = [
             performer: 'Chung Chi Wind Orchestra, Marco LEUNG (conductor)',
             mapUrl: 'https://www.instagram.com/p/DfWRjE7AMxi/',
         },
+    ],
     listenUrl: '#'
   },
   {
